@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ntokozo Shila | Portfoilo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Hello, My Name is <br><strong>Ntokozo Shila Ditshego</strong> </h2>
+            <p class="typing-text">I am a <span id="typed"></span></p>
+            <div class="services">
+                <h3>Skills</h3>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fas fa-paint-brush"></i> Canva</li>
+                </ul>
+            </div>
+            <div class="services">
+                <h3>Services</h3>
+                <ul>
+                    <li><i class="fas fa-laptop-code"></i> Web Development</li>
+                    <li><i class="fas fa-paint-brush"></i> Web Design</li>
+                    <li><i class="fas fa-image"></i> Poster/Logo Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container" class="about-me">
+            <h2>About Me</h2>
+            <img src="images/myPhoto.jpg" alt="Profile Image" width="100">
+            <p>I am Web Developer based in centurion, South Africa.<br> My journey began with a transformative bootcamp experience, propelling me into the dynamic world of web development. As a junior in the field, I have absorbed invaluable lessons and remain fervently eager to expand my skills.</p>
+            <p>Driven by a passion for innovation, I am dedicated to creating stunning websites and apps. I believe in the power of technology to address social issues, and I am committed to developing an app that will make a meaningful impact in our world.</p> 
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="images/budget.jpg" alt="Project 1" width="150">
+                <h3>Budget App</h3>
+                <button><a href="https://expensesbudgetapp.netlify.app/">View Project</a></button>
+            </div>
+            <div class="project">
+                <img src="images/landing.jpg" alt="Project 2" width="150">
+                <h3>Landing Page</h3>
+                <button><a href="https://mrsditshnails-landingpage.netlify.app/">View Project</a></button>
+            </div>
+            <div class="project">
+                <img src="images/fashion.jpg" alt="Project 3" width="150">
+                <h3>Fashion Website</h3>
+                <button><a href="https://mrhandsomesa.netlify.app/">View Project</a></button>
+            </div>
+            <div class="project">
+                <img src="images/weather.jpg" alt="Project 4" width="150">
+                <h3>Weather App</h3>
+                  <button><a href="https://shilasweatherapp.netlify.app/">View Project</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+  <footer>This website was coded by Ntokozo Shila Ditshego and is <a href="https://github.com/Shilathefirst">open-sourced</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>

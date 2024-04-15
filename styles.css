@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 20px 0;
+    background-color: white;
+}
+strong{
+  color: hotpink;
+}
+header h1 {
+    font-size: 24px;
+    color: #f58;
+    margin-top: 10px; 
+}
+
+nav ul {
+    list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  
+}
+
+nav ul li a {
+    color: #f58;
+    text-decoration: none;
+    transition: color 0.3s; 
+    border: 1px solid black;
+    border-radius: 5px; 
+    padding: 5px 5px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #fff; 
+}
+
+/* Home section */
+#home {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.typing-text {
+    margin-bottom: 20px;
+}
+
+/* Skills and Services sections */
+.services {
+    margin-top: 50px;
+}
+
+.services h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.services ul {
+    list-style: none; /* Remove bullet points */
+}
+
+.services ul li {
+    margin-bottom: 10px;
+}
+
+.services ul li i {
+    color: #f58; /* Hot pink color */
+    margin-right: 10px;
+}
+
+/* Projects section */
+#projects {
+    padding: 50px 0;
+}
+
+.project {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f58; /* Hot pink color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+.project button:hover {
+    background-color: black; 
+   border: 1px solid white;
+  
+}
+
+/* Contact section */
+#contact {
+    padding: 50px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    background-color: white;
+    color: #fff;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+.btn btn-primary{
+   
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: hotpink; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+ 
+
+footer{
+  text-align: center;
+  font-size: 10px;
+  margin: 20px 20px;
+} 
+
+.about-me{
+  text-align: center;
+  
+}
+button a {
+  color: white ;
+}
